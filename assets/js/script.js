@@ -60,7 +60,7 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio | Sanjeevi VP";
-            $("#favicon").attr("href", "assets/images/main2.png");
+            $("#favicon").attr("href", "assets/images/main2.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
